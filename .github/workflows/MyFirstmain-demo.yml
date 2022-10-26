@@ -1,9 +1,10 @@
 name: GitHub Actions Demo
 on:
   push:
-     workflow-dispatch:
+  
 jobs:
-  build:
-    run-on: ubuntu-latest
-  steps:
-    -run: echo "Hello GitHub actions World!"
+   build:
+      runs-on: ubuntu-latest
+   steps:
+      runs-on: echo "Hello Testing" 
+   
